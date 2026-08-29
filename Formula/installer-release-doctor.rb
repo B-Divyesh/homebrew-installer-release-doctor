@@ -6,10 +6,10 @@ class InstallerReleaseDoctor < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/B-Divyesh/sf-installer-release-doctor/releases/download/v0.1.2/release-doctor-v0.1.2-darwin-aarch64.tar.gz"
-      sha256 "4b959e00c3ef5614ce0de6cf1a673cfb123f8ec5a5450e3f4d290490eecfd4b9"
+      sha256 "f1fe9addb085fe7a697274f7c0d5a04ad7a82d918da72fe7330712b55307d13b"
     else
       url "https://github.com/B-Divyesh/sf-installer-release-doctor/releases/download/v0.1.2/release-doctor-v0.1.2-darwin-x86_64.tar.gz"
-      sha256 "3286275a877d93e95e8bfc68aca6e6cfb388221fb94500bb2172e187381f35bb"
+      sha256 "bb294ae05c493e2de1ed423a1ffd8be3c05f3c692c66eacdc974e1d26ed01959"
     end
   end
   def install
